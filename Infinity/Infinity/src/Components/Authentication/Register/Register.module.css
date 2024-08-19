@@ -1,0 +1,210 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, white 0%, white 100%);
+    background-image: url(https://via.placeholder.com/1440x889);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .background-container {
+    width: 1440px;
+    height: 889px;
+    position: relative;
+    background: white;
+  }
+  
+  .overlay {
+    width: 684px;
+    height: 889px;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
+  }
+  
+  .logo {
+    width: 160px;
+    height: 38px;
+    position: absolute;
+    left: 61px;
+    top: 52px;
+  }
+  
+  .form-container {
+    height: 689px;
+    position: absolute;
+    left: 835px;
+    top: 123px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 55px;
+  }
+  
+  .header {
+    align-self: stretch;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .title {
+    color: black;
+    font-size: 24px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    line-height: 31.2px;
+    word-wrap: break-word;
+  }
+  
+  .subtitle {
+    color: #687588;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+  }
+  
+  .form-fields {
+    align-self: stretch;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .form-field {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .label {
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    color: #687588;
+    font-weight: 600;
+  }
+  
+  .input-box {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 3px;
+    border: 1px solid #E9EAEC;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    color: #4A5568;
+  }
+  
+  .input-box::placeholder {
+    color: #A0AEC0;
+  }
+  
+  .description-box .input-box {
+    height: 100px;
+    resize: none;
+  }
+  
+  .terms {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    color: #687588;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  
+  .sign-up-button {
+    width: 100%;
+    padding: 12px;
+    background: #01A653;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .sign-in {
+    text-align: center;
+    color: #687588;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+  }
+  
+  .sign-in-link {
+    color: #01A653;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .blur-circle {
+    width: 482px;
+    height: 634px;
+    position: absolute;
+    left: -134px;
+    top: 134px;
+    background: #A7E071;
+    box-shadow: 1000px 1000px 1000px;
+    border-radius: 9999px;
+    filter: blur(1000px);
+  }
+  
+  .footer {
+    height: 100px;
+    position: absolute;
+    left: 70px;
+    top: 755px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .footer-text {
+    width: 576px;
+    height: 64px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+  
+  .footer-rights {
+    align-self: stretch;
+    height: 20px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .footer-rights div {
+    width: 299.49px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+  

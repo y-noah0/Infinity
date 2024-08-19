@@ -5,8 +5,8 @@ export default function Home() {
   <>
   
      <header>
-        <div class="navbar">
-            <img src="./img/INFINITY  TECH POS 2.png" alt="" class="logo"/>
+        <div className="navbar">
+            <img src="./img/INFINITY  TECH POS 2.png" alt="" className="logo"/>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -15,69 +15,69 @@ export default function Home() {
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </nav>
-            <a href="#" class="btn-register">Register</a>
+            <a href="./components/Register/Register.jsx" className="btn-register">Register</a>
         </div>
     </header>
     <main>
-        <section class="hero-section">
-            <div class="hero-content">
+        <section className="hero-section">
+            <div className="hero-content">
                 <h1>Server better with one faster, flexible platform</h1>
                 <p>Our POS system software is designed to cater to various industries, including bars, restaurants, coffee shops, pizzerias, alimentation, salons, and more.</p>
-                <div class="hero-buttons">
-                    <a href="#" class="btn-demo">Get a Demo</a>
-                    <a href="#" class="btn-started">Get Started</a>
+                <div className="hero-buttons">
+                    <a href="#" className="btn-demo">Get a Demo</a>
+                    <a href="#" className="btn-started">Get Started</a>
                 </div>
             </div>
-            <div class="hero-image">
+            <div className="hero-image">
                 <img src="" alt="Device Mockup"/>
             </div>
         </section>
     </main>
     {/* features */}
-    <section class="pos-landing-section">
-        <div class="top-banner">
-            <div class="top-left">
+    <section className="pos-landing-section">
+        <div className="top-banner">
+            <div className="top-left">
                 <h2>20K + Restaurants, Coffee shops, Alimentation, & more use infinity POS</h2>
             </div>
-            <div class="top-right">
-                <div class="stat">
-                    <p class="stat-number">103 +</p>
-                    <p class="stat-label">Active User</p>
+            <div className="top-right">
+                <div className="stat">
+                    <p className="stat-number">103 +</p>
+                    <p className="stat-label">Active User</p>
                 </div>
-                <div class="stat">
-                    <p class="stat-number">4.8</p>
-                    <p class="stat-label">Reviews</p>
+                <div className="stat">
+                    <p className="stat-number">4.8</p>
+                    <p className="stat-label">Reviews</p>
                 </div>
-                <div class="stat">
-                    <p class="stat-number">4.8</p>
-                    <p class="stat-label">Reviews</p>
+                <div className="stat">
+                    <p className="stat-number">4.8</p>
+                    <p className="stat-label">Reviews</p>
                 </div>
             </div>
         </div>
 
       
-        <div class="bottom-banner">
-            <h2 class="main-heading">
-                <span class="white-text">The restaurant and retail <br/> point of sale at </span>
-                <span class="green-text">our service.</span>
+        <div className="bottom-banner">
+            <h2 className="main-heading">
+                <span className="white-text">The restaurant and retail <br/> point of sale at </span>
+                <span className="green-text">our service.</span>
             </h2>
-            <div class="features">
-                <div class="feature-card">
-                    <div class="icon-bg"><img src="./img/accessiable.png" alt="Accessible" /></div>
+            <div className="features">
+                <div className="feature-card">
+                    <div className="icon-bg"><img src="./img/accessiable.png" alt="Accessible" /></div>
                     <h3>Accesible from any where</h3>
                     <p>Access our cloud-based system in or out of the restaurant.</p>
                 </div>
-                <div class="feature-card">
-                    <div class="icon-bg"><img src="https://via.placeholder.com/48x55" alt="Offline Mode" /></div>
+                <div className="feature-card">
+                    <div className="icon-bg"><img src="https://via.placeholder.com/48x55" alt="Offline Mode" /></div>
                     <h3>Offline Mode</h3>
                     <p>Reliable offline mode ensures you’re always on.</p>
                 </div>
-                <div class="feature-card">
-                    <div class="icon-bg"><img src="https://via.placeholder.com/48x55" alt="Support" /></div>
+                <div className="feature-card">
+                    <div className="icon-bg"><img src="https://via.placeholder.com/48x55" alt="Support" /></div>
                     <h3>24/7 Support</h3>
                     <p>Connect with real people who really get it, 24/7</p>
                 </div>
-                <div class="feature-card">
+                <div className="feature-card">
                     <div class="icon-bg"><img src="https://via.placeholder.com/46x53" alt="Integration" /></div>
                     <h3>Website and App Integration</h3>
                     <p>100+ integrations sync directly with our POS.</p>
