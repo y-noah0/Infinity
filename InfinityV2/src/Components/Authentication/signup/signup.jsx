@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './signup.module.css';
-import logo from '../../../assets/img/logo.png'; // Update the path accordingly
-import backgroundImage from '../../../assets/img/coffeshop.png'; // Update the path accordingly
+import logo from '../../../assets/Authentication/logo.png'; // Update the path accordingly
+import backgroundImage from '../../../assets/Authentication/coffeshop.png'; // Update the path accordingly
 
 const Signup = () => {
     return (

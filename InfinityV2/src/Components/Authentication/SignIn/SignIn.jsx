@@ -7,7 +7,7 @@ const SignIn = () => {
             <img
                 className={styles.featureSectionChild}
                 alt="Coffee Shop"
-                src="/src/assets/img/coffeshop.png"
+                src="/src/assets/Authentication/coffeshop.png"
             />
             <div className={styles.frameParent}>
                 <div className={styles.signInToYourAccountParent}>
