@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .left-section {
+    width: 50%;
+  }
+  
+  .left-section h1 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  
+  .devices-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  .right-section {
+    width: 40%;
+  }
+  
+  .card {
+    margin-bottom: 30px;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .learn-more {
+    color: #00A859;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .learn-more:hover {
+    text-decoration: underline;
+  }
+  
