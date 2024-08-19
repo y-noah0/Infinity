@@ -43,6 +43,13 @@
     border-radius: 5px;
     width: 160px;
     height: 46px;
+    border: 1px solid var(--color-primary-green);
+    transition: 0.2s;
+}
+.btn_register:hover{
+    background-color: white;
+    color: var(--color-primary-green);
+    
 }
 
 .navList li a:hover {
@@ -77,6 +84,7 @@
 @media screen and (max-width: 768px) {
     .navbar {
         padding: 14px 5%;
+        z-index: 5;
     }
 
     .hamburger {
